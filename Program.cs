@@ -36,16 +36,50 @@ namespace CS_Using_HashSet
             Console.WriteLine(); // Adds empty line
 
             // starting HashSet
-            HashSet<string> hSet = new HashSet<string>(names);
-            Console.WriteLine("Count of Data in HashSet " + hSet.Count); // Count of Data in Hashset: returns: 6 (index based)
+            HashSet<string> hSet = new HashSet<string>(names);// HashSet of Type <string>
+            Console.WriteLine("Count of Data in HashSet " + hSet.Count); // Count of Data in Hashset: returns: 6 (removes duplicate name)
             Console.WriteLine();
             Console.WriteLine("Data in HashSet");
 
-            foreach (var n in hSet)
+            foreach (var n in hSet) // looping through array hSet
+            {
+                Console.WriteLine(n); // returns 6 names, removed duplicate name
+            }
+            Console.ReadLine(); // user input.. PRESS ENTER
+
+            string[] name1 = new string[]
+            {
+                 "mahesh","sabnis","manish","sharma","saket","karnik"
+            };
+            string[] name2 = new string[]
+            {
+                  "suprotim","agarwal","vikram","pendse","mahesh","mitkari"
+            };
+
+            HashSet<string> hSetN1 = new HashSet<string>(name1);
+            Console.WriteLine("Data in First HashSet");
+            foreach (var n in hSetN1)
+            {
+                Console.WriteLine(n);
+                // after ever element in the array a divider will be present
+                Console.WriteLine("_______________________________________________________________");
+            }
+
+            HashSet<string> hSetN2 = new HashSet<string>(name2);
+            Console.WriteLine("Data in Second HashSet");
+            foreach (var n in hSetN2)
             {
                 Console.WriteLine(n);
             }
-            Console.ReadLine();
+            Console.WriteLine("_______________________________________________________________");
+            Console.WriteLine("Data after Union");
+
+            hSetN1.UnionWith(hSetN2); // UnionWith()Method of hSetN1 passing hSetN2 to hSetN1
+            foreach (var n in hSetN1)
+            {
+                Console.WriteLine(n); // displays hSetN1 after UNION
+            }
+
         }
     }
 }
