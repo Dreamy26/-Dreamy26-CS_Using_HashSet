@@ -34,6 +34,18 @@ namespace CS_Using_HashSet
                 Console.WriteLine(n); // returns the objects one by one under each other
             }
             Console.WriteLine(); // Adds empty line
+
+            // starting HashSet
+            HashSet<string> hSet = new HashSet<string>(names);
+            Console.WriteLine("Count of Data in HashSet " + hSet.Count); // Count of Data in Hashset: returns: 6 (index based)
+            Console.WriteLine();
+            Console.WriteLine("Data in HashSet");
+
+            foreach (var n in hSet)
+            {
+                Console.WriteLine(n);
+            }
+            Console.ReadLine();
         }
     }
 }
