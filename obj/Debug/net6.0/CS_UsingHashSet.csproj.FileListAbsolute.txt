@@ -1,0 +1,15 @@
+/Users/dreamy/Projects/CS_UsingHashSet/CS_UsingHashSet/bin/Debug/net6.0/CS_UsingHashSet
+/Users/dreamy/Projects/CS_UsingHashSet/CS_UsingHashSet/bin/Debug/net6.0/CS_UsingHashSet.deps.json
+/Users/dreamy/Projects/CS_UsingHashSet/CS_UsingHashSet/bin/Debug/net6.0/CS_UsingHashSet.runtimeconfig.json
+/Users/dreamy/Projects/CS_UsingHashSet/CS_UsingHashSet/bin/Debug/net6.0/CS_UsingHashSet.dll
+/Users/dreamy/Projects/CS_UsingHashSet/CS_UsingHashSet/bin/Debug/net6.0/CS_UsingHashSet.pdb
+/Users/dreamy/Projects/CS_UsingHashSet/CS_UsingHashSet/obj/Debug/net6.0/CS_UsingHashSet.csproj.AssemblyReference.cache
+/Users/dreamy/Projects/CS_UsingHashSet/CS_UsingHashSet/obj/Debug/net6.0/CS_UsingHashSet.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dreamy/Projects/CS_UsingHashSet/CS_UsingHashSet/obj/Debug/net6.0/CS_UsingHashSet.AssemblyInfoInputs.cache
+/Users/dreamy/Projects/CS_UsingHashSet/CS_UsingHashSet/obj/Debug/net6.0/CS_UsingHashSet.AssemblyInfo.cs
+/Users/dreamy/Projects/CS_UsingHashSet/CS_UsingHashSet/obj/Debug/net6.0/CS_UsingHashSet.csproj.CoreCompileInputs.cache
+/Users/dreamy/Projects/CS_UsingHashSet/CS_UsingHashSet/obj/Debug/net6.0/CS_UsingHashSet.dll
+/Users/dreamy/Projects/CS_UsingHashSet/CS_UsingHashSet/obj/Debug/net6.0/refint/CS_UsingHashSet.dll
+/Users/dreamy/Projects/CS_UsingHashSet/CS_UsingHashSet/obj/Debug/net6.0/CS_UsingHashSet.pdb
+/Users/dreamy/Projects/CS_UsingHashSet/CS_UsingHashSet/obj/Debug/net6.0/CS_UsingHashSet.genruntimeconfig.cache
+/Users/dreamy/Projects/CS_UsingHashSet/CS_UsingHashSet/obj/Debug/net6.0/ref/CS_UsingHashSet.dll
