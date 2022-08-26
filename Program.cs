@@ -75,10 +75,59 @@ namespace CS_Using_HashSet
             Console.WriteLine("Data after Union");
 
             hSetN1.UnionWith(hSetN2); // UnionWith()Method of hSetN1 passing hSetN2 to hSetN1
+
             foreach (var n in hSetN1)
             {
                 Console.WriteLine(n); // displays hSetN1 after UNION
             }
+            Console.WriteLine();
+            Console.WriteLine("_________________________________");
+            Console.WriteLine("Data in HasSet before using ExceptWith()");
+            Console.WriteLine("_________________________________");
+
+            HashSet<string> hSetN3 = new HashSet<string>(name1);
+            foreach (var n in hSetN3)
+            {
+                Console.WriteLine(n);
+            }
+            Console.WriteLine();
+            Console.WriteLine("_________________________________");
+
+            hSetN3.ExceptWith(hSetN2);
+
+            foreach (var n in hSetN3)
+            {
+                Console.WriteLine(n);
+            }
+
+            HashSet<string> hSetN4 = new HashSet<string>(name1);
+            Console.WriteLine("_________________________________");
+
+            Console.WriteLine("Elements in HashSet before using SymmetricExceptWith");
+            Console.WriteLine("_________________________________");
+            Console.WriteLine("HashSet 1");
+
+            foreach (var n in hSetN4)
+            {
+                Console.WriteLine(n);
+            }
+
+            Console.WriteLine();
+            Console.WriteLine("HashSet 2");
+            foreach (var n in hSetN2)
+            {
+                Console.WriteLine(n);
+            }
+            Console.WriteLine("_________________________________");
+            Console.WriteLine("Using SymmetricExceptWith");
+            Console.WriteLine("_________________________________");
+
+            hSetN4.SymmetricExceptWith(hSetN2); // SymmetricExceptWith is balled on hSetN4 passing hSetN2
+            foreach (var n in hSetN4)
+            {
+                Console.WriteLine(n); // returns with repeated mahesh removed.  
+            }
+
 
         }
     }
